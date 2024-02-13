@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;600;700;800&display=swap');
+
+/* default css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    overflow-x: hidden;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    Size: 20px;
+    line-height: 28px;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+  }
+h3 {
+      font-size: 40px;
+      font-weight: 500;
+     }
+h4 {
+    font-size: 24px;
+    font-weight: 300;
+   }
+h5 {
+    font-size: 15px;
+    font-weight: 400;
+    }
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+a:hover{
+    opacity: .7;
+    color:#1969FF;
+}
+ul{
+    list-style-type: none;
+}
+.primarybutton{
+    background-color: #1969FF;
+    width: 192px;
+    border-radius: 8px;
+    margin-top: 64px;
+    margin-left: 163px;
+}
+.primarybutton a{
+    color: #FFFFFF;
+    padding: 20px 16px 20px 16px;
+    display: inline-block;
+    padding-left: 31px;
+}
+
+.primarybutton :hover{
+    opacity: .3;
+    color: #000000;
+}
+/* default css ends here */
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+/* header section starts here */
+.header-wrapper{
+    max-width: 100%;
+    height: 80px;
+    background-color: #212122;
+    border-radius: 0 0 10px 10px;
+    border: 1px solid #D4E1EC;  
+    background-image: linear-gradient(90.21deg, rgba(212, 225, 236, 0.16) 0%, rgba(103, 116, 139, 0.16) 100%);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    width: 124px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+.header ul{
+    display: flex;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    width: 702px;
+    justify-content: space-between;
+}
+.header ul li{
+    padding: 10px 16px 10px 16px;
+    height: 36px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 16px; 
+}
+/* header section ends */
+
+/* section banner wrapper starts */
+.banner-wrapper{
+    max-width: 100%;
+    background: #212122;
+    padding-top: 32px;
+}
+.banner-image{
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    top: 192px;
+    left: 347px;
+    right: 347px;
+}
+.banner-text h1{
+    font-size: 96px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 96px;
+}
+.banner-text h1 span{
+    color: #C7794E;
+}
+.banner-text h6{
+    padding-top: 32px;
+    font-weight: 400;
+    font-size: 20px;   
+    line-height: 28px;
+    letter-spacing: -0.25px;
+    text-align: center;
+    width: 480px;
+    padding-left: 52px;
+}
+/* banner section ends */
+
+/* image section */
+.image-section{
+    background: #212122;
+    max-width: 100%;
+}
+.image{
+    background: linear-gradient(180deg, #111112 0%, #191919 100%);
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+    display: flex;
+}
+.left{
+    background: linear-gradient(180deg, #33312D 0%, #615D59 100%);
+    width: 628px;
+    height: 100%;
+    top: 784px;
+    border-radius: 24px, 24px, 0px, 0px;
+    margin-right: 12px;
+
+}
+.text{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.left text h6{
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: #DFB8AC;
+}   
+.left text p{
+font-family: Manrope;
+font-size: 40px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: -1px;
+text-align: left;
+color: #EFF3FB;
+}
+.left img{
+    /* width: 628px;
+    height: 628px; */
+
+}
+.right{
+    background: linear-gradient(180deg, #2B2E31 0%, #495053 99.08%);
+    margin-left: 12px;
+}
+.right img{
+    /* width: 628px;
+    height: 628px; */
+
+}
